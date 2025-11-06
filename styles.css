@@ -72,8 +72,8 @@ body {
 }
 
 .logo-icon {
-    width: 40px;
-    height: 40px;
+    height: 60px;
+    width: auto;
     filter: drop-shadow(0 0 10px var(--red-glow));
 }
 
@@ -692,8 +692,9 @@ section {
 }
 
 .footer-logo {
-    width: 30px;
-    height: 30px;
+    height: 80px;
+    width: auto;
+    max-width: 300px;
 }
 
 .footer p {
@@ -703,6 +704,10 @@ section {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .logo-icon {
+        height: 45px;
+    }
+
     .nav-menu {
         display: none;
         position: absolute;
@@ -763,12 +768,11 @@ section {
         padding: 4rem 0;
     }
 
-    .brand-name {
-        font-size: 1.2rem;
-    }
-
     .logo-icon {
-        width: 30px;
-        height: 30px;
+        height: 35px;
+    }
+    
+    .footer-logo {
+        height: 60px;
     }
 }
