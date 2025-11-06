@@ -17,9 +17,6 @@ A cutting-edge static landing page for MoneyondaFloor ENT music studio featuring
 - Configured web server workflow
 - Created Netlify deployment configuration
 - Added documentation and gitignore
-- Integrated official MoneyondaFloor ENT logo with dynamic animations
-- Added floating and pulsing glow effects to logo
-- Implemented smooth entrance animation sequence
 
 ## Project Architecture
 

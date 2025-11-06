@@ -215,63 +215,6 @@ body {
     padding: 2rem;
 }
 
-.hero-logo-container {
-    margin-bottom: 3rem;
-    animation: logoEntrance 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) backwards;
-}
-
-@keyframes logoEntrance {
-    0% {
-        opacity: 0;
-        transform: scale(0.5) translateY(-100px) rotate(-10deg);
-    }
-    60% {
-        transform: scale(1.05) translateY(0) rotate(2deg);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1) translateY(0) rotate(0);
-    }
-}
-
-.hero-logo {
-    max-width: min(800px, 90vw);
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    filter: drop-shadow(0 0 30px rgba(255, 0, 0, 0.4)) 
-            drop-shadow(0 0 60px rgba(0, 255, 0, 0.3));
-    transition: var(--transition);
-    animation: logoFloat 4s ease-in-out infinite, logoPulseGlow 3s ease-in-out infinite;
-}
-
-@keyframes logoFloat {
-    0%, 100% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-}
-
-@keyframes logoPulseGlow {
-    0%, 100% {
-        filter: drop-shadow(0 0 30px rgba(255, 0, 0, 0.4)) 
-                drop-shadow(0 0 60px rgba(0, 255, 0, 0.3));
-    }
-    50% {
-        filter: drop-shadow(0 0 50px rgba(255, 0, 0, 0.6)) 
-                drop-shadow(0 0 80px rgba(0, 255, 0, 0.5));
-    }
-}
-
-.hero-logo:hover {
-    transform: scale(1.05);
-    filter: drop-shadow(0 0 50px rgba(255, 0, 0, 0.6)) 
-            drop-shadow(0 0 90px rgba(0, 255, 0, 0.5))
-            drop-shadow(0 0 120px rgba(255, 215, 0, 0.3));
-}
-
 .hero-title {
     font-family: var(--font-display);
     font-size: clamp(3rem, 12vw, 8rem);
@@ -330,7 +273,7 @@ body {
     font-size: 1.2rem;
     color: var(--gray-text);
     margin-bottom: 3rem;
-    animation: fadeIn 1s ease-out 1s backwards;
+    animation: fadeIn 1s ease-out 0.7s backwards;
 }
 
 @keyframes fadeIn {
@@ -357,7 +300,7 @@ body {
     transition: var(--transition);
     position: relative;
     overflow: hidden;
-    animation: fadeIn 1s ease-out 1.3s backwards;
+    animation: fadeIn 1s ease-out 0.9s backwards;
     box-shadow: 0 10px 30px var(--red-glow);
 }
 
