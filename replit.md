@@ -1,7 +1,7 @@
-# MoneyondaFloor ENT - Music Studio Landing Page
+# Money On Da Flo ENT - Music Studio Landing Page
 
 ## Project Overview
-A cutting-edge static landing page for MoneyondaFloor ENT music studio featuring a modern design with black, red, and green color scheme. The site includes Cal.com booking integration for seamless studio session scheduling and is optimized for deployment on Netlify.
+A cutting-edge static landing page for Money On Da Flo ENT music studio featuring a modern design with black, red, and green color scheme. The site includes Cal.com booking integration for seamless studio session scheduling and is optimized for deployment on Netlify.
 
 ## Current State
 - Static HTML/CSS/JavaScript website

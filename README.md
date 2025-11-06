@@ -1,6 +1,6 @@
-# MoneyondaFloor ENT - Music Studio Landing Page
+# Money On Da Flo ENT - Music Studio Landing Page
 
-A cutting-edge landing page for MoneyondaFloor ENT music studio with integrated Cal.com booking functionality.
+A cutting-edge landing page for Money On Da Flo ENT music studio with integrated Cal.com booking functionality.
 
 ## Features
 
@@ -89,4 +89,4 @@ Edit the CSS variables in `styles.css`:
 
 ## License
 
-© 2024 MoneyondaFloor ENT. All rights reserved.
+© 2024 Money On Da Flo ENT. All rights reserved.
