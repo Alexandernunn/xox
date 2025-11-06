@@ -21,8 +21,8 @@ To complete the Cal.com integration:
 2. Set up your booking calendar and availability
 3. Get your Cal.com username or team name
 4. Update the Cal.com embed code in `index.html`:
-   - Find `data-cal-link="team/moneyondafloor-ent"`
-   - Replace `"team/moneyondafloor-ent"` with your actual Cal.com username/team
+   - Find `data-cal-link="team/moneyondaflo-ent"`
+   - Replace `"team/moneyondaflo-ent"` with your actual Cal.com username/team
    - Example: `data-cal-link="yourusername"` or `data-cal-link="team/yourteam"`
 
 ## Deployment to Netlify
