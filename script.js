@@ -79,4 +79,36 @@ document.addEventListener('DOMContentLoaded', function() {
     studioFeatures.forEach((feature, index) => {
         feature.style.animationDelay = `${index * 0.1}s`;
     });
+
+    function createFallingMoney() {
+        const heroBackground = document.querySelector('.hero-background');
+        if (!heroBackground) return;
+
+        const money = document.createElement('div');
+        money.classList.add('falling-money');
+        money.textContent = '💵';
+        
+        const startPosition = Math.random() * 100;
+        money.style.left = startPosition + '%';
+        
+        const duration = 8 + Math.random() * 4;
+        money.style.animationDuration = duration + 's';
+        
+        const delay = Math.random() * 5;
+        money.style.animationDelay = delay + 's';
+        
+        heroBackground.appendChild(money);
+        
+        setTimeout(() => {
+            money.remove();
+        }, (duration + delay) * 1000);
+    }
+
+    for (let i = 0; i < 15; i++) {
+        createFallingMoney();
+    }
+
+    setInterval(() => {
+        createFallingMoney();
+    }, 1500);
 });
