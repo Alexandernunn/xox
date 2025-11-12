@@ -81,9 +81,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function createFallingMoney() {
-        const heroBackground = document.querySelector('.hero-background');
-        if (!heroBackground) return;
-
         const money = document.createElement('div');
         money.classList.add('falling-money');
         money.textContent = '💵';
@@ -97,18 +94,18 @@ document.addEventListener('DOMContentLoaded', function() {
         const delay = Math.random() * 5;
         money.style.animationDelay = delay + 's';
         
-        heroBackground.appendChild(money);
+        document.body.appendChild(money);
         
         setTimeout(() => {
             money.remove();
         }, (duration + delay) * 1000);
     }
 
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < 20; i++) {
         createFallingMoney();
     }
 
     setInterval(() => {
         createFallingMoney();
-    }, 1500);
+    }, 1200);
 });
