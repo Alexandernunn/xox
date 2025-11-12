@@ -652,6 +652,10 @@ section {
     height: 20px;
 }
 
+.contact-form-container {
+    display: none;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
