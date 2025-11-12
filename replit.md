@@ -70,6 +70,7 @@ A cutting-edge static landing page for Money On Da Flo ENT music studio featurin
 ### Contact Information
 - Location: East Nashville
 - Email: moneyondafloent@gmail.com
+- Phone: (615) 880-9971
 - Cal.com: https://cal.com/moneyondafloent/30min
 - Social media: Instagram, Twitter, YouTube (placeholder links)
 
