@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const navMenu = document.querySelector('.nav-menu');
     const navLinks = document.querySelectorAll('.nav-link');
-    const contactForm = document.getElementById('contactForm');
 
     window.addEventListener('scroll', function() {
         if (window.scrollY > 50) {
@@ -37,15 +36,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 navMenu.classList.remove('active');
             }
         });
-    });
-
-    contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        const formData = new FormData(contactForm);
-        
-        alert('Thank you for your message! We will get back to you soon.');
-        contactForm.reset();
     });
 
     const observerOptions = {

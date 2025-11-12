@@ -26,6 +26,9 @@ A cutting-edge static landing page for Money On Da Flo ENT music studio featurin
 - Fixed Cal.com deprecation warning (replaced styles with cssVarsPerTheme)
 - Replaced generated-icon.png with custom logo.jpg
 - Updated Netlify caching configuration
+- Fixed JavaScript errors by removing contactForm references from script.js
+- Added cache-busting: script.js?v=2 to force fresh JavaScript loading
+- Added cache-control meta tags to prevent HTML caching issues
 
 ## Project Architecture
 
