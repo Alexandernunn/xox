@@ -1,4 +1,4 @@
-modules = ["web", "nodejs-20"]
+modules = ["web", "nodejs-20", "python-3.11"]
 [agent]
 expertMode = true
 
@@ -30,17 +30,10 @@ outputType = "webview"
 localPort = 5000
 externalPort = 80
 
-[[ports]]
-localPort = 33665
-externalPort = 3001
-
-[[ports]]
-localPort = 43205
-externalPort = 3000
-
 [deployment]
 run = ["sh", "-c", "npm start"]
 deploymentTarget = "cloudrun"
 
 [nix]
 channel = "stable-25_05"
+packages = ["imagemagick", "libheif"]

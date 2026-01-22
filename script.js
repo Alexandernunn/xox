@@ -98,4 +98,31 @@ document.addEventListener('DOMContentLoaded', function() {
     setInterval(() => {
         createFallingMoney();
     }, 1200);
+
+    // Gallery fade in/out animation
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    
+    galleryItems.forEach((item, itemIndex) => {
+        const images = item.querySelectorAll('.gallery-img');
+        if (images.length === 0) return;
+        
+        let currentIndex = 0;
+        
+        // Stagger the timing for each gallery item
+        const baseInterval = 3000;
+        const staggerDelay = itemIndex * 500;
+        
+        setTimeout(() => {
+            setInterval(() => {
+                // Fade out current image
+                images[currentIndex].classList.remove('active');
+                
+                // Move to next image
+                currentIndex = (currentIndex + 1) % images.length;
+                
+                // Fade in next image
+                images[currentIndex].classList.add('active');
+            }, baseInterval);
+        }, staggerDelay);
+    });
 });

@@ -11,7 +11,14 @@ A cutting-edge static landing page for Money On Da Flo ENT music studio featurin
 - Ready for Netlify deployment
 - Local development server running on port 5000
 
-## Recent Changes (November 12, 2025)
+## Recent Changes (January 22, 2026)
+- Added Gallery section with 3x3 image grid
+- Converted HEIC images to JPG for web compatibility
+- Implemented fade in/fade out image transitions (staggered timing)
+- Added Gallery link to navigation menu
+- Images cycle through with smooth opacity transitions
+
+## Previous Changes (November 12, 2025)
 - Updated hero title from "Floor" to "FLO" with gradient effect
 - Updated all branding references to "Money On Da Flo ENT"
 - Removed Mixing service card (now showing 3 services: Recording, Mastering, Production)
@@ -49,9 +56,10 @@ A cutting-edge static landing page for Money On Da Flo ENT music studio featurin
 1. **Hero Section**: Full-screen hero with animated "Money on da FLO" title and falling money animation
 2. **Services**: Grid layout showcasing 3 services (Recording, Mastering, Production)
 3. **Studio Features**: Highlights of equipment and amenities
-4. **Booking Section**: Cal.com embed for session scheduling (moneyondafloent/30min)
-5. **Contact Section**: Centered contact information (location, email, social links)
-6. **Responsive Design**: Mobile-first approach with breakpoints
+4. **Gallery Section**: 3x3 image grid with fade in/out transitions between studio photos
+5. **Booking Section**: Cal.com embed for session scheduling (moneyondafloent/30min)
+6. **Contact Section**: Centered contact information (location, email, social links)
+7. **Responsive Design**: Mobile-first approach with breakpoints
 
 ### Technology Stack
 - Pure HTML5, CSS3, Vanilla JavaScript
