@@ -553,6 +553,7 @@ section {
 
 /* Gallery Section */
 .gallery {
+    display: none;
     background: linear-gradient(180deg, var(--dark-gray) 0%, var(--black) 50%, var(--dark-gray) 100%);
 }
 
